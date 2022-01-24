@@ -2,7 +2,7 @@ function receivesAFunction (cb) {
     return cb();
 }
 
-receivesAFunction (function () {Spy});
+receivesAFunction (function () {Poo});
 
 function returnsANamedFunction () {
     return function iAmQuestioningThis() {
